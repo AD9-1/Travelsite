@@ -1,0 +1,67 @@
+#greece {
+  height: 1080px;
+  width: 100%;
+  background-image: url("../assets/images/greece.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#hawaii {
+  height: 1080px;
+  width: 100%;
+  background-image: url("../assets/images/hawaii.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#iceland {
+  height: 1080px;
+  width: 100%;
+  background-image: url("../assets/images/iceland.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.place {
+  margin-left: 9rem;
+  padding-top: 7rem;
+}
+.place h1 {
+  font-size: 100px;
+  height: 60px;
+  color: white;
+}
+.card {
+  height: 650px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-text {
+  height: 520px;
+  width: 360px;
+  background-color: white;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  border-radius: 5px;
+}
+.card-text h1 {
+  text-align: center;
+}
+.card-text .place-para {
+  width: 360px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.card-text .place-para .paragraph {
+  height: 60px;
+  width: 300px;
+  background-color: #fefaf5;
+  text-align: center;
+  font-size: 25px;
+  padding-top: 20px;
+  margin: 10px;
+}
