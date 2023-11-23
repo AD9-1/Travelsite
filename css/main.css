@@ -18,12 +18,10 @@ nav h2 {
   font-size: 23px;
   color: black;
 }
-.nav-places ul li a:hover {
-  border-bottom: #97db4e;
+.nav-places ul li .nav__link--active {
+  border-bottom: #db7a4e 2px solid;
 }
-.nav-places ul li a:active {
-  border-bottom: #db7a4e;
-}
+
 #hero {
   background-color: #fefaf5;
   height: 600px;
@@ -54,7 +52,7 @@ nav h2 {
 #hero .globe {
   background-image: url("../assets/images/hero.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   height: 520px;
   width: 623px;
 }
@@ -66,7 +64,7 @@ nav h2 {
   display: flex;
   align-items: center;
   color: #335576;
-  margin-left: 11rem;
+  margin-left: 5%;
 }
 .Recommendation-image {
   display: flex;
