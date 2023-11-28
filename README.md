@@ -1,2 +1,2 @@
-# git-practice-nov-2023
+# Travelsite-nov-2023
 #travelsite project on brainstation
